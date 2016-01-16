@@ -22,7 +22,9 @@
     "compileOnSave": true,
     "buildOnSave": true,
     "files": [
-        "misc.ts"
+        "misc.d.ts",
+        "misc.ts",
+        "typing/node/node.d.ts"
     ],
     "atom": {
         "rewriteTsconfig": true
