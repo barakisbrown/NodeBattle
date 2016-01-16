@@ -1,0 +1,15 @@
+{
+  "name": "NodeBattle",
+  "version": "1.0.0",
+  "description": "Client/Server Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barakisbrown/NodeBattle"
+  },
+  "author": "Matthew Brown",
+  "license": "ISC"
+}
