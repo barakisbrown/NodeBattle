@@ -22,6 +22,8 @@
     "compileOnSave": true,
     "buildOnSave": true,
     "files": [
+        "base.d.ts",
+        "base.ts",
         "misc.d.ts",
         "misc.ts",
         "typing/node/node.d.ts"
