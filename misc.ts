@@ -32,7 +32,7 @@ module NodeBattle.misc {
     Asks a question to the console and awaits input.
     It then validates the input.
   */
-  export function ask(question, format, callback) {
+  export function ask(question:string, format, callback) {
 
     var stdin = process.stdin;
     var stdout = process.stdout;
@@ -59,7 +59,7 @@ module NodeBattle.misc {
     an enum that I use. It takes the starting dice and then adds a value to
     get the new Dice value that it needs to be done.
   */
-  export function getDice(start: Dice, added:number) : Dice {
+  export function getDice(start:Dice, added:number) : Dice {
       if (added === 0)
           return start;
       else {
