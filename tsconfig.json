@@ -26,6 +26,10 @@
         "base.ts",
         "misc.d.ts",
         "misc.ts",
+        "mob.d.ts",
+        "mob.ts",
+        "mobs.d.ts",
+        "mobs.ts",
         "typing/node/node.d.ts"
     ],
     "atom": {
