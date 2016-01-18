@@ -13,6 +13,7 @@ export class Base {
     protected attDice : number = Dice.D4;
     protected defDice : number = Dice.D4;
     protected dead : boolean = false;
+    protected xp : number;
 
     constructor() {}
 
@@ -42,6 +43,7 @@ export class Base {
     get ATKDICE(): Dice { return this.attDice; }
     get DEFDICE(): Dice { return this.defDice; }
     get isDead(): boolean { return this.dead;}
+    get XP() : number { return this.xp; }
 
     set Name(_name: string) {
       this.name = _name;
@@ -72,7 +74,11 @@ export class Base {
         this.defDice = _defDice;
       } else {
         throw "_atkDice is not vaid Dice used.";
-      }      
+      }
+    }
+
+    set XP(_xp : number) {
+      this.xp = _xp;
     }
   }
 }
