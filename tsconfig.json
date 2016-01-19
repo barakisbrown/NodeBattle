@@ -24,6 +24,8 @@
     "files": [
         "base.d.ts",
         "base.ts",
+        "Client/client.d.ts",
+        "Client/client.ts",
         "icommands.d.ts",
         "icommands.ts",
         "misc.d.ts",
@@ -34,6 +36,8 @@
         "mobs.ts",
         "player.d.ts",
         "player.ts",
+        "Server/server.d.ts",
+        "Server/server.ts",
         "typing/node/node.d.ts"
     ],
     "atom": {
