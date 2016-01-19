@@ -39,8 +39,18 @@ module NodeBattle {
            this.list.push(single);
     }
 
+    /**
+      getMob(_name:string) : Mob
+      Searches the list for a paticalar name. Found return it else null
+    */
     getMob(_name:string) : Mob {
-      throw "Not Impleted Yet!!";
+
+      for (var single of this.list) {
+        if (single.Name === _name)
+          return single;
+      }
+      /** none found */
+      return null;
     }
 }
 
