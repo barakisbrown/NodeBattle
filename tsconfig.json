@@ -24,12 +24,15 @@
     "files": [
         "base.d.ts",
         "base.ts",
+        "icommands.d.ts",
+        "icommands.ts",
         "misc.d.ts",
         "misc.ts",
         "mob.d.ts",
         "mob.ts",
         "mobs.d.ts",
         "mobs.ts",
+        "player.ts",
         "typing/node/node.d.ts"
     ],
     "atom": {
