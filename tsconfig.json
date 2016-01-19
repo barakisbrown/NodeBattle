@@ -32,6 +32,7 @@
         "mob.ts",
         "mobs.d.ts",
         "mobs.ts",
+        "player.d.ts",
         "player.ts",
         "typing/node/node.d.ts"
     ],
