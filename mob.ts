@@ -1,9 +1,10 @@
 /// <reference path="base.ts" />
 /// <reference path="misc.ts" />
+/// <reference path="icommands.ts"/>
 
 module NodeBattle {
 
-  export class Mob extends Base {
+  export class Mob extends Base implements icommands {
 
     attackTN : number = 11;
     numDice : number = 3;
