@@ -27,7 +27,12 @@ var NodeBattle;
             this.list.push(single);
         };
         Mobs.prototype.getMob = function (_name) {
-            throw "Not Impleted Yet!!";
+            for (var _i = 0, _a = this.list; _i < _a.length; _i++) {
+                var single = _a[_i];
+                if (single.Name === _name)
+                    return single;
+            }
+            return null;
         };
         return Mobs;
     }());
